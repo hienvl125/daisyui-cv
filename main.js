@@ -10,7 +10,7 @@ const data = {
   cvLastUpdatedLable: "CV last updated as of July 2023",
   avatarURL: avatar,
   fullName: "LUONG VI HIEN",
-  title: "Backend Developer",
+  title: "Software Engineer",
   location: "Ho Chi Minh City, Vietnam",
   yoe: "5 years of experience",
   email: "hienviluong125@gmail.com",
