@@ -4,7 +4,7 @@ import goldenOwlLogo from "./public/golden_owl_logo.jpeg"
 import nobeeLogo from "./public/nobee_logo.jpeg"
 import defaultCompanyLogo from "./public/default_company_logo.png"
 
-export const PREV_backendDevDescription = {
+export const backendDevDescription = {
   cvLastUpdatedLable: "CV last updated as of July 2023",
   avatarURL: avatar,
   fullName: "LUONG VI HIEN",

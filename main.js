@@ -1,6 +1,6 @@
 import "./style.css"
 import uniLogo from "./public/hcmus.jpeg"
-import { fullstackDevDescription as data } from "./title_description"
+import { backendDevDescription as data } from "./title_description"
 const buildWorkExperienceItemHTML = function ({
   title,
   companyName,
