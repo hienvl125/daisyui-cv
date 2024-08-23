@@ -1,4 +1,4 @@
-import avatar from "./public/avatar.jpeg"
+import avatar from "./public/2024_avatar.jpg"
 import andpadLogo from "./public/andpad_logo.png"
 import goldenOwlLogo from "./public/golden_owl_logo.jpeg"
 import nobeeLogo from "./public/nobee_logo.jpeg"
