@@ -5,7 +5,12 @@ import nobeeLogo from "./public/nobee_logo.jpeg"
 import defaultCompanyLogo from "./public/default_company_logo.png"
 
 export const backendDevDescription = {
-  cvLastUpdatedLable: "CV last updated as of July 2023",
+  informationSectionTitle: "Information",
+  skillSectionTitle: "Skills",
+  aboutMeSectionTitle: "About me",
+  workExperienceSectionTitle: "Work experience",
+  educationSectionTitle: "Education",
+  cvLastUpdatedLable: "CV last updated as of Oct 2024",
   avatarURL: avatar,
   fullName: "LUONG VI HIEN",
   title: "Backend Developer",
@@ -138,7 +143,12 @@ export const backendDevDescription = {
 }
 
 export const fullstackDevDescription = {
-  cvLastUpdatedLable: "CV last updated as of Jan 2024",
+  informationSectionTitle: "Information",
+  skillSectionTitle: "Skills",
+  aboutMeSectionTitle: "About me",
+  workExperienceSectionTitle: "Work experience",
+  educationSectionTitle: "Education",
+  cvLastUpdatedLable: "CV last updated as of Oct 2024",
   avatarURL: avatar,
   fullName: "LUONG VI HIEN",
   title: "Full-stack Web Developer",
@@ -269,6 +279,146 @@ export const fullstackDevDescription = {
       title: "College's degree in IT",
       school: "VNUHCM - University of Science",
       duration: "Sept 2016 - Jun 2019",
+    }
+  ]
+}
+
+export const fullstackDevDescriptionVietnamese = {
+  informationSectionTitle: "Thông tin",
+  skillSectionTitle: "Kĩ năng",
+  aboutMeSectionTitle: "Giới thiệu",
+  workExperienceSectionTitle: "Kinh nghiệm làm việc",
+  educationSectionTitle: "Học vấn",
+  cvLastUpdatedLable: "Cập nhật lần cuối vào tháng 10 năm 2024",
+  avatarURL: avatar,
+  fullName: "LƯƠNG VĨ HIỀN",
+  title: "Lập trình viên Full-stack Web",
+  location: "Thành phố Hồ Chí Minh, Việt Nam",
+  yoe: "5 năm kinh nghiệm",
+  email: "hienviluong125@gmail.com",
+  github: {
+    label: "hienvl125",
+    link: "https://github.com/hienvl125"
+  },
+  linkedin: {
+    label: "Hien Luong",
+    link: "https://www.linkedin.com/in/hien-luong-49913517b/"
+  },
+  skills: [
+    { badgeClass: "badge badge-primary badge-outline", label: "Kĩ năng giải quyết vấn đề" },
+    { badgeClass: "badge badge-accent badge-outline", label: "Golang" },
+    { badgeClass: "badge badge-error badge-outline", label: "Ruby on Rails" },
+    { badgeClass: "badge badge-neutral badge-outline", label: "Mysql" },
+    { badgeClass: "badge badge-info badge-outline", label: "React.JS" },
+    { badgeClass: "badge badge-success badge-outline", label: "Vue.JS" },
+    { badgeClass: "badge badge-warning badge-outline", label: "AWS" },
+  ],
+  aboutMe: "Tôi đã làm việc như một nhà phát triển web hơn 5 năm, chủ yếu tập trung vào phát triển backend. Tôi thích giải quyết các vấn đề và hiện đang tìm hiểu về việc mở rộng ứng dụng web, hệ thống phân tán và các phương pháp DevOps để mở rộng kỹ năng của mình cho các doanh nghiệp cần chuyển đổi số.",
+  workExperiences: [
+    {
+      title: "Lập trình viên Backend",
+      companyName: "ANDPAD",
+      companyLogoURL: andpadLogo,
+      workType: "Toàn thời gian", // Full-time | Part-time
+      duration: "Tháng 3 năm 2022 - Hiện tại",
+      techStack: [
+        { badgeClass: "badge badge-accent badge-outline", label: "Golang" },
+        { badgeClass: "badge badge-error badge-outline", label: "Ruby on Rails" },
+        { badgeClass: "badge badge-primary badge-outline", label: "GraphQL" },
+        { badgeClass: "badge badge-neutral badge-outline", label: "Mysql" },
+        { badgeClass: "badge badge-warning badge-outline", label: "AWS" },
+      ],
+      workDesc: [
+        "Tạo máy chủ GraphQL làm Backend cho Frontend (BFF) để thu thập thông tin từ các dịch vụ micro khác nhau, đảm bảo quyền truy cập an toàn cho người dùng.",
+        "Xây dựng nền tảng mạnh mẽ với microservices để quản lý dữ liệu và hoạt động của doanh nghiệp một cách hiệu quả.",
+        "Thiết kế và phát triển các giải pháp backend tùy chỉnh cho công ty sản phẩm xây dựng, cải thiện hiệu suất tổng thể."
+      ]
+    },
+    {
+      title: "Lập trình viên Web",
+      companyName: "Nobee",
+      companyLogoURL: nobeeLogo,
+      workType: "Toàn thời gian", // Full-time | Part-time
+      duration: "Tháng 5 năm 2021 - Tháng 2 năm 2022",
+      techStack: [
+        { badgeClass: "badge badge-error badge-outline", label: "Ruby on Rails" },
+        { badgeClass: "badge badge-neutral badge-outline", label: "Postgresql" },
+        { badgeClass: "badge badge-warning badge-outline", label: "AWS" },
+      ],
+      workDesc: [
+        "Phát triển các API bằng Ruby on Rails và giao diện người dùng bằng React.JS.",
+        "Phụ trách hoàn toàn các tính năng cho cả backend và frontend.",
+        "Thiết kế và xây dựng một bảng điều khiển quản lý các buổi trình chiếu tài sản, giúp khách hàng dễ dàng lên lịch, tổ chức và chuyển giao các buổi trình chiếu.",
+        "Viết các bài kiểm tra tự động bằng Capybara."
+      ]
+    },
+    {
+      title: "Lập trình viên Web",
+      companyName: "Freelancer",
+      companyLogoURL: defaultCompanyLogo,
+      workType: "Bán thời gian", // Full-time | Part-time
+      duration: "Tháng 12 năm 2020 - Tháng 4 năm 2021",
+      techStack: [
+        { badgeClass: "badge badge-error badge-outline", label: "Ruby on Rails" },
+        { badgeClass: "badge badge-neutral badge-outline", label: "Postgresql" },
+        { badgeClass: "badge badge-info badge-outline", label: "ReactJS" },
+      ],
+      workDesc: [
+        "Tạo bảng điều khiển quản lý nhân viên tại một công ty khởi nghiệp.",
+        "Phát triển ứng dụng sự kiện cho chủ cửa hàng livestream và tích hợp sản phẩm Shopify."
+      ]
+    },
+    {
+      title: "Lập trình viên Web",
+      companyName: "Golden Owl Consulting Ltd",
+      companyLogoURL: goldenOwlLogo,
+      workType: "Toàn thời gian", // Full-time | Part-time
+      duration: "Tháng 7 năm 2019 - Tháng 12 năm 2020",
+      techStack: [
+        { badgeClass: "badge badge-error badge-outline", label: "Ruby on Rails" },
+        { badgeClass: "badge badge-neutral badge-outline", label: "Postgresql" },
+        { badgeClass: "badge badge-warning badge-outline", label: "AWS" },
+        { badgeClass: "badge badge-info badge-outline", label: "ReactJS" },
+        { badgeClass: "badge badge-success badge-outline", label: "VueJS" },
+      ],
+      workDesc: [
+        "Phát triển các ứng dụng web bằng Ruby on Rails, React.JS và Vue.JS.",
+        "Tham gia vào dự án quản lý sự kiện, giám sát quản lý khán giả và sự kiện.",
+        "Thiết lập livestream tự động và lên lịch các video cho các sự kiện sắp tới.",
+        "Triển khai tính năng chat thời gian thực để tương tác trực tiếp.",
+        "Thiết kế các câu đố tương tác trong video nhằm tăng tương tác người dùng."
+      ]
+    },
+    {
+      title: "Lập trình viên Javascript",
+      companyName: "BLOOD inc",
+      companyLogoURL: defaultCompanyLogo,
+      workType: "Bán thời gian", // Full-time | Part-time
+      duration: "Tháng 8 năm 2018 - Tháng 6 năm 2019",
+      techStack: [
+        { badgeClass: "badge badge-success badge-outline", label: "ExpressJS" },
+        { badgeClass: "badge badge-info badge-outline", label: "ReactJS" },
+        { badgeClass: "badge badge-neutral badge-outline", label: "MongoDB" },
+      ],
+      workDesc: [
+        "Xây dựng một ứng dụng web fullstack bằng ReactJS và ExpressJS.",
+        "Tích hợp API Google Maps cho các tính năng tương tác.",
+        "Cho phép người dùng tham gia vào trò chơi bất động sản, bao gồm chọn bất động sản, giao dịch và tích hợp ví tiền."
+      ]
+    }
+  ],
+  educations: [
+    {
+      avatar: "",
+      title: "Cử nhân CNTT",
+      school: "Đại học Khoa học Tự nhiên - ĐHQG TPHCM",
+      duration: "Tháng 9 năm 2019 - Tháng 12 năm 2021",
+    },
+    {
+      avatar: "",
+      title: "Cao đẳng CNTT",
+      school: "Đại học Khoa học Tự nhiên - ĐHQG TPHCM",
+      duration: "Tháng 9 năm 2016 - Tháng 6 năm 2019",
     }
   ]
 }
